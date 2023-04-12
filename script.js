@@ -5,5 +5,5 @@ function getFormvalue() {
 	alert(fname+" "+lname);
 }
 
-let submit=document.getquerySelector('input').value;
+let submit=document.getElementById("submit").value;
 submit.addEventListener('onclick',getFormvalue);
